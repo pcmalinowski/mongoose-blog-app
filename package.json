@@ -4,10 +4,11 @@
   "description": "mongoose and express stuff",
   "main": "server.js",
   "scripts": {
-    "start": "node-server.js"
+    "start": "node server.js"
   },
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "mongoose": "^4.13.5",
     "morgan": "^1.9.0",
